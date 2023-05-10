@@ -3,8 +3,7 @@ name: hildr CI
 on:
   push:
     branches: [ "main" ]
-  pull_request_target:
-    branches: [ "main" ]
+  pull_request:
 
 jobs:
   build:
@@ -12,8 +11,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       - name: Set up JDK 20
         uses: actions/setup-java@v3
         with:
