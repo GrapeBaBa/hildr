@@ -5,7 +5,7 @@
 
 # Hildr
 
-Hildr is an OP Stack rollup client written in the Latest Java.
+Hildr is an OP Stack rollup client written in the Latest Java. This repository is archived, we use a new [repository](https://github.com/optimism-java/hildr).
 
 Follow the [spec](https://github.com/ethereum-optimism/optimism/blob/develop/specs/rollup-node.md)
 
